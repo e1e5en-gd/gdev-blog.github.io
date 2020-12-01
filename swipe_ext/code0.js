@@ -284,7 +284,7 @@ gdjs.SampleCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.SampleCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SampleCode.conditionTrue_1 = gdjs.SampleCode.condition1IsTrue_0;
-gdjs.SampleCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8174188);
+gdjs.SampleCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8625660);
 }
 }}
 if (gdjs.SampleCode.condition1IsTrue_0.val) {
@@ -479,10 +479,10 @@ gdjs.copyArray(runtimeScene.getObjects("Numeral2"), gdjs.SampleCode.GDNumeral2Ob
     gdjs.SampleCode.GDLengthObjects2[i].setString("Length: " + gdjs.evtTools.common.toString((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").Length((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)))));
 }
 }{for(var i = 0, len = gdjs.SampleCode.GDDirectionFor4Objects2.length ;i < len;++i) {
-    gdjs.SampleCode.GDDirectionFor4Objects2[i].setString("Direction for 4 parties: " + (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? "" :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").GetDirectionsFor4Parties((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+    gdjs.SampleCode.GDDirectionFor4Objects2[i].setString("Direction for 4 parties: " + (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? "" :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").Average4Direction((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
 }
 }{for(var i = 0, len = gdjs.SampleCode.GDDirectionFor8Objects2.length ;i < len;++i) {
-    gdjs.SampleCode.GDDirectionFor8Objects2[i].setString("Direction for 8 parties: " + (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? "" :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").GetDirectionsFor8Parties((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+    gdjs.SampleCode.GDDirectionFor8Objects2[i].setString("Direction for 8 parties: " + (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? "" :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").Average8Direction((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
 }
 }{for(var i = 0, len = gdjs.SampleCode.GDNumeral2Objects2.length ;i < len;++i) {
     gdjs.SampleCode.GDNumeral2Objects2[i].deleteFromScene(runtimeScene);
@@ -490,12 +490,12 @@ gdjs.copyArray(runtimeScene.getObjects("Numeral2"), gdjs.SampleCode.GDNumeral2Ob
 }{for(var i = 0, len = gdjs.SampleCode.GDNumeral1Objects2.length ;i < len;++i) {
     gdjs.SampleCode.GDNumeral1Objects2[i].deleteFromScene(runtimeScene);
 }
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.SampleCode.mapOfGDgdjs_46SampleCode_46GDNumeral1Objects2Objects, (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").PointStartX((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))), (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").PointStartY((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))), "");
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.SampleCode.mapOfGDgdjs_46SampleCode_46GDNumeral2Objects2Objects, (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").PointEndX((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))), (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").PointEndY((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))), "");
-}{runtimeScene.getVariables().getFromIndex(0).getChild("AX").setNumber((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").PointStartX((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{runtimeScene.getVariables().getFromIndex(0).getChild("AY").setNumber((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").PointStartY((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{runtimeScene.getVariables().getFromIndex(0).getChild("BX").setNumber((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").PointEndX((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{runtimeScene.getVariables().getFromIndex(0).getChild("BY").setNumber((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").PointEndY((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.SampleCode.mapOfGDgdjs_46SampleCode_46GDNumeral1Objects2Objects, (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").StartPointX((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))), (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").StartPointY((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))), "");
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.SampleCode.mapOfGDgdjs_46SampleCode_46GDNumeral2Objects2Objects, (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").EndPointX((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))), (( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").EndPointY((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))), "");
+}{runtimeScene.getVariables().getFromIndex(0).getChild("AX").setNumber((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").StartPointX((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{runtimeScene.getVariables().getFromIndex(0).getChild("AY").setNumber((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").StartPointY((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{runtimeScene.getVariables().getFromIndex(0).getChild("BX").setNumber((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").EndPointX((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{runtimeScene.getVariables().getFromIndex(0).getChild("BY").setNumber((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").EndPointY((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
 }{runtimeScene.getVariables().getFromIndex(0).getChild("Draw").setNumber(1);
 }{for(var i = 0, len = gdjs.SampleCode.GDNumeral1Objects2.length ;i < len;++i) {
     gdjs.SampleCode.GDNumeral1Objects2[i].resetTimer("destroy");

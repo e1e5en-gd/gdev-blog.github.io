@@ -2,7 +2,7 @@
 gdjs.evtsExt__Swipe__Swipe = gdjs.evtsExt__Swipe__Swipe || {};
 
 /**
- * Behavior generated from Swipe
+ * Behavior generated from Swipe Detector
  * @class Swipe
  * @extends gdjs.RuntimeBehavior
  * @constructor
@@ -113,13 +113,6 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObject
 
 
 };gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList1 = function(runtimeScene, eventsFunctionContext) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -239,7 +232,7 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition0IsTr
 }if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition1IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8220444);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8673748);
 }
 }}
 if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
@@ -409,6 +402,36 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjec
 /* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDone(false);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setSwipeStart(false);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointStartX(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointStartY(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointEndX(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointEndY(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setLength(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setTimer(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDirectionX(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDirectionY(0);
 }
 }}
 
@@ -627,29 +650,29 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects2.length
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.eventsList0(runtimeScene, eventsFunctionContext);
 return !!eventsFunctionContext.returnValue;
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext = {};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.GDObjectObjects1= [];
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.GDObjectObjects2= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
-
-{
-
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.GDObjectObjects1);
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getPointStartX()); }}}
+
+
+{
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.GDObjectObjects1);
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getPointStartX()); }}}
 
 }
 
 
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartX = function(parentEventsFunctionContext) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointX = function(parentEventsFunctionContext) {
 
 var that = this;
 var runtimeScene = this._runtimeScene;
@@ -693,35 +716,35 @@ var eventsFunctionContext = {
   getOnceTriggers: function() { return that._onceTriggers; }
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointXContext.eventsList0(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext = {};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.GDObjectObjects1= [];
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.GDObjectObjects2= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
-
-{
-
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.GDObjectObjects1);
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getPointStartY()); }}}
+
+
+{
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.GDObjectObjects1);
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getPointStartY()); }}}
 
 }
 
 
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartY = function(parentEventsFunctionContext) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointY = function(parentEventsFunctionContext) {
 
 var that = this;
 var runtimeScene = this._runtimeScene;
@@ -765,35 +788,35 @@ var eventsFunctionContext = {
   getOnceTriggers: function() { return that._onceTriggers; }
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartYContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.StartPointYContext.eventsList0(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext = {};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.GDObjectObjects1= [];
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.GDObjectObjects2= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
-
-{
-
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.GDObjectObjects1);
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getPointEndX()); }}}
+
+
+{
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.GDObjectObjects1);
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getPointEndX()); }}}
 
 }
 
 
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndX = function(parentEventsFunctionContext) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointX = function(parentEventsFunctionContext) {
 
 var that = this;
 var runtimeScene = this._runtimeScene;
@@ -837,35 +860,35 @@ var eventsFunctionContext = {
   getOnceTriggers: function() { return that._onceTriggers; }
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndXContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointXContext.eventsList0(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext = {};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.GDObjectObjects1= [];
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.GDObjectObjects2= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
-
-{
-
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.GDObjectObjects1);
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getPointEndY()); }}}
+
+
+{
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.GDObjectObjects1);
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getPointEndY()); }}}
 
 }
 
 
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndY = function(parentEventsFunctionContext) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointY = function(parentEventsFunctionContext) {
 
 var that = this;
 var runtimeScene = this._runtimeScene;
@@ -909,10 +932,10 @@ var eventsFunctionContext = {
   getOnceTriggers: function() { return that._onceTriggers; }
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.EndPointYContext.eventsList0(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext = {};
@@ -1399,23 +1422,11 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.eventsList0(run
 return Number(eventsFunctionContext.returnValue) || 0;
 }
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext = {};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1_1final = [];
-
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1= [];
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2= [];
 
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition2IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_1 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_1 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition2IsTrue_1 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_2 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_2 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_2 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition2IsTrue_2 = {val:false};
 
 
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
@@ -1426,203 +1437,7 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.eventsList0 = function(r
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle(Math.ceil(gdjs.toDegrees(Math.atan2(-((gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX())) * (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY()), (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX()) * (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX())))));
-}
-}}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1);
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_0.val = false;
-{
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_1.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX() > 0 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i];
-        ++k;
-    }
-}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY() > 0 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i];
-        ++k;
-    }
-}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_1.val;
-}
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_0.val) {
-/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1 */
-{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle(-((gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle())));
-}
-}}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length = 0;
-
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_0.val = false;
-{
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1_1final.length = 0;gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_1.val = false;
-{
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2);
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_2 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_2.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_2.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX() < 0 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_2.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[i];
-        ++k;
-    }
-}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_2.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY() > 0 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_2.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[i];
-        ++k;
-    }
-}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_2.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_2.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_2.val;
-}
-if( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1.val ) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length;j<jLen;++j) {
-        if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1_1final.indexOf(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[j]) === -1 )
-            gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1_1final.push(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[j]);
-    }
-}
-}
-{
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2);
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_2 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_1;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_2.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_2.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX() < 0 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_2.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[i];
-        ++k;
-    }
-}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_2.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY() < 0 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_2.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[i];
-        ++k;
-    }
-}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_2.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_2.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_2.val;
-}
-if( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_1.val ) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length;j<jLen;++j) {
-        if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1_1final.indexOf(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[j]) === -1 )
-            gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1_1final.push(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2[j]);
-    }
-}
-}
-{
-gdjs.copyArray(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1_1final, gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1);
-}
-}
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_0.val) {
-/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1 */
-{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle(180 - (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle()));
-}
-}}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1);
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_0.val = false;
-{
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_1.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX() > 0 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i];
-        ++k;
-    }
-}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY() < 0 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i];
-        ++k;
-    }
-}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition1IsTrue_1.val;
-}
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.condition0IsTrue_0.val) {
-/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1 */
-{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle(360 - (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle()));
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle(gdjs.evtTools.common.angleBetweenPositions(0, 0, (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX()), (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY())));
 }
 }}
 
@@ -1691,81 +1506,70 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.GDObjectObjects2.length 
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext.eventsList0(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext = {};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1_1final = [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2_1final = [];
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1= [];
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3= [];
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition2IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_1 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition2IsTrue_1 = {val:false};
-
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
-
-{
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition2IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_1 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition2IsTrue_1 = {val:false};
 
 
-
-}
-
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1);
-{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle((gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).Angle((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1);
+{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle((gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).Angle((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
 }
 }}
 
 }
 
 
-{
-
-
-
-}
-
+};gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.eventsList1 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1);
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2);
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 225 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < -(45) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val ) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 315 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= -(135) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2.length = k;}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val;
 }
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0.val) {
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "UP"; }}}
 
 }
@@ -1773,34 +1577,34 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condi
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1);
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2);
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 45 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 45 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val ) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 135 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 135 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2.length = k;}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val;
 }
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0.val) {
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "DOWN"; }}}
 
 }
@@ -1808,34 +1612,53 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condi
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0.val = false;
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2_1final.length = 0;gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 135 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i];
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3);
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 135 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val ) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3.length = k;if( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val ) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_1.val = true;
+    for(var j = 0, jLen = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3.length;j<jLen;++j) {
+        if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2_1final.indexOf(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3[j]) === -1 )
+            gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2_1final.push(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3[j]);
+    }
+}
+}
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 225 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1[i];
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3);
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < -(135) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3.length = k;if( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val ) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_1.val = true;
+    for(var j = 0, jLen = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3.length;j<jLen;++j) {
+        if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2_1final.indexOf(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3[j]) === -1 )
+            gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2_1final.push(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3[j]);
+    }
 }
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0.val) {
+}
+{
+gdjs.copyArray(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2_1final, gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2);
+}
+}
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "LEFT"; }}}
 
 }
@@ -1843,61 +1666,58 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condi
 
 {
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length = 0;
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1);
 
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1_1final.length = 0;gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val = false;
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2);
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 315 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= -(45) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2.length = k;if( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_1.val ) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2.length;j<jLen;++j) {
-        if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1_1final.indexOf(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2[j]) === -1 )
-            gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1_1final.push(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2[j]);
-    }
-}
-}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val ) {
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2);
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 45 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 45 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2.length = k;if( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition1IsTrue_1.val ) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2.length;j<jLen;++j) {
-        if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1_1final.indexOf(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2[j]) === -1 )
-            gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1_1final.push(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2[j]);
-    }
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1.length = k;}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition1IsTrue_1.val;
 }
-}
-{
-gdjs.copyArray(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1_1final, gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1);
-}
-}
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.condition0IsTrue_0.val) {
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "RIGHT"; }}}
 
 }
 
 
+};gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.eventsList2 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.eventsList0(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.eventsList1(runtimeScene, eventsFunctionContext);
+}
+
+
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4Parties = function(parentEventsFunctionContext) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4Direction = function(parentEventsFunctionContext) {
 
 var that = this;
 var runtimeScene = this._runtimeScene;
@@ -1941,87 +1761,77 @@ var eventsFunctionContext = {
   getOnceTriggers: function() { return that._onceTriggers; }
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.GDObjectObjects3.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average4DirectionContext.eventsList2(runtimeScene, eventsFunctionContext);
 return "" + eventsFunctionContext.returnValue;
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext = {};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1_1final = [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2_1final = [];
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1= [];
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3= [];
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition2IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition2IsTrue_1 = {val:false};
-
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
-
-{
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition2IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition2IsTrue_1 = {val:false};
 
 
-
-}
-
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1);
-{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle((gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).Angle((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1);
+{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle((gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).Angle((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
 }
 }}
 
 }
 
 
-{
-
-
-
-}
-
+};gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.eventsList1 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1);
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2);
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 248 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < -(68) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val ) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 292 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= -(112) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val;
 }
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val) {
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "UP"; }}}
 
 }
@@ -2029,34 +1839,34 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condi
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1);
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2);
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 68 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 68 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val ) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 121 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 112 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val;
 }
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val) {
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "DOWN"; }}}
 
 }
@@ -2064,34 +1874,53 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condi
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val = false;
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2_1final.length = 0;gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 158 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3);
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 158 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val ) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3.length = k;if( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val ) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1.val = true;
+    for(var j = 0, jLen = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3.length;j<jLen;++j) {
+        if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2_1final.indexOf(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3[j]) === -1 )
+            gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2_1final.push(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3[j]);
+    }
+}
+}
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 202 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3);
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < -(157) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3.length = k;if( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val ) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1.val = true;
+    for(var j = 0, jLen = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3.length;j<jLen;++j) {
+        if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2_1final.indexOf(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3[j]) === -1 )
+            gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2_1final.push(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3[j]);
+    }
 }
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val) {
+}
+{
+gdjs.copyArray(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2_1final, gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2);
+}
+}
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "LEFT"; }}}
 
 }
@@ -2099,53 +1928,34 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condi
 
 {
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = 0;
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2);
 
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1_1final.length = 0;gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = false;
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2);
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 338 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 22 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2.length = k;if( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val ) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2.length;j<jLen;++j) {
-        if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1_1final.indexOf(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2[j]) === -1 )
-            gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1_1final.push(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2[j]);
-    }
-}
-}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val ) {
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2);
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 22 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= -(23) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2.length = k;if( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val ) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2.length;j<jLen;++j) {
-        if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1_1final.indexOf(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2[j]) === -1 )
-            gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1_1final.push(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2[j]);
-    }
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val;
 }
-}
-{
-gdjs.copyArray(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1_1final, gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1);
-}
-}
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val) {
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "RIGHT"; }}}
 
 }
@@ -2153,34 +1963,34 @@ gdjs.copyArray(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8Parti
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1);
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2);
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 202 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < -(112) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val ) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 248 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= -(158) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val;
 }
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val) {
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "UP-LEFT"; }}}
 
 }
@@ -2188,34 +1998,34 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condi
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1);
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2);
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 292 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() <= -(23) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val ) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 338 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() > -(68) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val;
 }
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val) {
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "UP-RIGHT"; }}}
 
 }
@@ -2223,34 +2033,34 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condi
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1);
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2);
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 121 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() > 112 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val ) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 158 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() <= 158 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = k;}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val;
 }
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val) {
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "DOWN-LEFT"; }}}
 
 }
@@ -2258,42 +2068,58 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condi
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1);
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1);
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val = false;
 {
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = false;
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() >= 22 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() > 22 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val ) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() < 68 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1[i];
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getAngle() <= 68 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1[i];
         ++k;
     }
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = k;}}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition1IsTrue_1.val;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1.length = k;}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.conditionTrue_1.val = true && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_1.val && gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition1IsTrue_1.val;
 }
-}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.condition0IsTrue_0.val) {
+}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.condition0IsTrue_0.val) {
 {if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = "DOWN-RIGHT"; }}}
 
 }
 
 
+};gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.eventsList2 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.eventsList0(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.eventsList1(runtimeScene, eventsFunctionContext);
+}
+
+
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8Parties = function(parentEventsFunctionContext) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8Direction = function(parentEventsFunctionContext) {
 
 var that = this;
 var runtimeScene = this._runtimeScene;
@@ -2337,10 +2163,11 @@ var eventsFunctionContext = {
   getOnceTriggers: function() { return that._onceTriggers; }
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.GDObjectObjects3.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Average8DirectionContext.eventsList2(runtimeScene, eventsFunctionContext);
 return "" + eventsFunctionContext.returnValue;
 }
 
