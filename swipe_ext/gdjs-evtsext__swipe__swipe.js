@@ -2,7 +2,7 @@
 gdjs.evtsExt__Swipe__Swipe = gdjs.evtsExt__Swipe__Swipe || {};
 
 /**
- * Behavior generated from 
+ * Behavior generated from Swipe
  * @class Swipe
  * @extends gdjs.RuntimeBehavior
  * @constructor
