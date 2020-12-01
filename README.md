@@ -1,2 +1,2 @@
 # gdev-blog.github.io
-Gdev-blog
+GDev-blog
