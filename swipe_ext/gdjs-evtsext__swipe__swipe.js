@@ -15,7 +15,7 @@ gdjs.evtsExt__Swipe__Swipe.Swipe = function(runtimeScene, behaviorData, owner)
     this._onceTriggers = new gdjs.OnceTriggers();
     this._behaviorData = {};
     
-    this._behaviorData.Time = behaviorData.Time !== undefined ? behaviorData.Time : Number("0.15") || 0;
+    this._behaviorData.Time = behaviorData.Time !== undefined ? behaviorData.Time : Number("0.200") || 0;
     this._behaviorData.MinLength = behaviorData.MinLength !== undefined ? behaviorData.MinLength : Number("100") || 0;
     this._behaviorData.PointStartX = Number("0") || 0;
     this._behaviorData.PointStartY = Number("0") || 0;
@@ -117,61 +117,6 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObject
 {
 
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
-{
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
-{
-{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition1IsTrue_0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8171420);
-}
-}}
-if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
-/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1 */
-{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointStartX(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0));
-}
-}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointStartY(gdjs.evtTools.input.getMouseY(runtimeScene, "", 0));
-}
-}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointEndX(0);
-}
-}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointEndY(0);
-}
-}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setSwipeStart(true);
-}
-}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setLength(0);
-}
-}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setTimer(0);
-}
-}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle(0);
-}
-}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDirectionX(0);
-}
-}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDirectionY(0);
-}
-}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDone(false);
-}
-}}
-
-}
-
-
-};gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList2 = function(runtimeScene, eventsFunctionContext) {
-
-{
-
-
 
 }
 
@@ -257,12 +202,7 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList0(ru
 }
 
 
-{
-
-
-
-}
-
+};gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList2 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -287,12 +227,62 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObject
 }
 
 
+};gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList3 = function(runtimeScene, eventsFunctionContext) {
+
 {
 
 
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition0IsTrue_0.val = false;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition1IsTrue_0.val = false;
+{
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition0IsTrue_0.val ) {
+{
+{gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.conditionTrue_1 = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition1IsTrue_0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8220444);
+}
+}}
+if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition1IsTrue_0.val) {
+/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1 */
+{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointStartX(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0));
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointStartY(gdjs.evtTools.input.getMouseY(runtimeScene, "", 0));
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointEndX(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setPointEndY(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setSwipeStart(true);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setLength(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setTimer(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setAngle(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDirectionX(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDirectionY(0);
+}
+}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDone(false);
+}
+}}
 
 }
 
+
+};gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList4 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -310,9 +300,32 @@ for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEv
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList1(runtimeScene, eventsFunctionContext);} //End of subevents
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList3(runtimeScene, eventsFunctionContext);} //End of subevents
 }
 
+}
+
+
+};gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList5 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList1(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList2(runtimeScene, eventsFunctionContext);
+}
+
+
+{
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList4(runtimeScene, eventsFunctionContext);
 }
 
 
@@ -365,7 +378,93 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList2(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPreEventsContext.eventsList5(runtimeScene, eventsFunctionContext);
+return;
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects2= [];
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.condition1IsTrue_0 = {val:false};
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1);
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDone() ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.condition0IsTrue_0.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i];
+        ++k;
+    }
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
+/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1 */
+{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDone(false);
+}
+}}
+
+}
+
+
+};
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEvents = function(parentEventsFunctionContext) {
+
+var that = this;
+var runtimeScene = this._runtimeScene;
+var thisObjectList = [this.owner];
+var Object = Hashtable.newFrom({Object: thisObjectList});
+var Behavior = this.name;
+var eventsFunctionContext = {
+  _objectsMap: {
+"Object": Object
+},
+  _objectArraysMap: {
+"Object": thisObjectList
+},
+  _behaviorNamesMap: {
+"Behavior": Behavior
+},
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName];
+  },
+  createObject: function(objectName) {
+    var objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      return parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+    }
+    return null;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return that._onceTriggers; }
+};
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.GDObjectObjects2.length = 0;
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.doStepPostEventsContext.eventsList0(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.onDestroyContext = {};
@@ -445,6 +544,88 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.onDestroyContext.GDObjectObjects2.len
 
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.onDestroyContext.eventsList0(runtimeScene, eventsFunctionContext);
 return;
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects2= [];
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.condition1IsTrue_0 = {val:false};
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1);
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDone() ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.condition0IsTrue_0.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1[i];
+        ++k;
+    }
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.condition0IsTrue_0.val) {
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
+
+}
+
+
+};
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDone = function(parentEventsFunctionContext) {
+
+var that = this;
+var runtimeScene = this._runtimeScene;
+var thisObjectList = [this.owner];
+var Object = Hashtable.newFrom({Object: thisObjectList});
+var Behavior = this.name;
+var eventsFunctionContext = {
+  _objectsMap: {
+"Object": Object
+},
+  _objectArraysMap: {
+"Object": thisObjectList
+},
+  _behaviorNamesMap: {
+"Behavior": Behavior
+},
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName];
+  },
+  createObject: function(objectName) {
+    var objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      return parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+    }
+    return null;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return that._onceTriggers; }
+};
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects2.length = 0;
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.eventsList0(runtimeScene, eventsFunctionContext);
+return !!eventsFunctionContext.returnValue;
 }
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext = {};
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointStartXContext.GDObjectObjects1= [];
@@ -734,59 +915,32 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.GDObjectObjects2.len
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.PointEndYContext.eventsList0(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext = {};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1= [];
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects2= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition1IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1);
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength() > 0 ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[i];
-        ++k;
-    }
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1);
+{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setLength(Math.ceil(Math.sqrt((gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX()) * (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX()) + (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY()) * (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY()))));
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val) {
-/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1 */
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (1 / (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength())) * (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX()); }}}
-
-}
-
-
-{
-
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1);
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length;i<l;++i) {
-    if ( !(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength() > 0) ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[i];
-        ++k;
-    }
-}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val) {
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = 0; }}}
+}{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength()); }}}
 
 }
 
 
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionX = function(parentEventsFunctionContext) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Length = function(parentEventsFunctionContext) {
 
 var that = this;
 var runtimeScene = this._runtimeScene;
@@ -830,10 +984,10 @@ var eventsFunctionContext = {
   getOnceTriggers: function() { return that._onceTriggers; }
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.eventsList0(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext = {};
@@ -862,7 +1016,7 @@ for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYC
 }
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.condition0IsTrue_0.val) {
 /* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.GDObjectObjects1 */
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (1 / (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength())) * (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY()); }}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY()); }}}
 
 }
 
@@ -938,32 +1092,59 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.GDObjectObjects2.le
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionYContext.eventsList0(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext = {};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1= [];
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects2= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects2= [];
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
-
-{
-
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1);
-{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setLength(Math.ceil(Math.sqrt((gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX()) * (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX()) + (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY()) * (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY()))));
+
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1);
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength() > 0 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[i];
+        ++k;
+    }
 }
-}{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength()); }}}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val) {
+/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1 */
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX()); }}}
+
+}
+
+
+{
+
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1);
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length;i<l;++i) {
+    if ( !(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength() > 0) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1[i];
+        ++k;
+    }
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.condition0IsTrue_0.val) {
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = 0; }}}
 
 }
 
 
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.Length = function(parentEventsFunctionContext) {
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionX = function(parentEventsFunctionContext) {
 
 var that = this;
 var runtimeScene = this._runtimeScene;
@@ -1007,10 +1188,214 @@ var eventsFunctionContext = {
   getOnceTriggers: function() { return that._onceTriggers; }
 };
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.LengthContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionXContext.eventsList0(runtimeScene, eventsFunctionContext);
+return Number(eventsFunctionContext.returnValue) || 0;
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects2= [];
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.condition1IsTrue_0 = {val:false};
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1);
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength() > 0 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.condition0IsTrue_0.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1[i];
+        ++k;
+    }
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.condition0IsTrue_0.val) {
+/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1 */
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (1 / (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength())) * (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionX()); }}}
+
+}
+
+
+{
+
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1);
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1.length;i<l;++i) {
+    if ( !(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength() > 0) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.condition0IsTrue_0.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1[i];
+        ++k;
+    }
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.condition0IsTrue_0.val) {
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = 0; }}}
+
+}
+
+
+};
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormX = function(parentEventsFunctionContext) {
+
+var that = this;
+var runtimeScene = this._runtimeScene;
+var thisObjectList = [this.owner];
+var Object = Hashtable.newFrom({Object: thisObjectList});
+var Behavior = this.name;
+var eventsFunctionContext = {
+  _objectsMap: {
+"Object": Object
+},
+  _objectArraysMap: {
+"Object": thisObjectList
+},
+  _behaviorNamesMap: {
+"Behavior": Behavior
+},
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName];
+  },
+  createObject: function(objectName) {
+    var objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      return parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+    }
+    return null;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return that._onceTriggers; }
+};
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.GDObjectObjects2.length = 0;
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormXContext.eventsList0(runtimeScene, eventsFunctionContext);
+return Number(eventsFunctionContext.returnValue) || 0;
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext = {};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1= [];
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects2= [];
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.conditionTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.condition1IsTrue_0 = {val:false};
+
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1);
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength() > 0 ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.condition0IsTrue_0.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1[i];
+        ++k;
+    }
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.condition0IsTrue_0.val) {
+/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1 */
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (1 / (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength())) * (( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDirectionY()); }}}
+
+}
+
+
+{
+
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1);
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1.length;i<l;++i) {
+    if ( !(gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getLength() > 0) ) {
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.condition0IsTrue_0.val = true;
+        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1[i];
+        ++k;
+    }
+}
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.condition0IsTrue_0.val) {
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = 0; }}}
+
+}
+
+
+};
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormY = function(parentEventsFunctionContext) {
+
+var that = this;
+var runtimeScene = this._runtimeScene;
+var thisObjectList = [this.owner];
+var Object = Hashtable.newFrom({Object: thisObjectList});
+var Behavior = this.name;
+var eventsFunctionContext = {
+  _objectsMap: {
+"Object": Object
+},
+  _objectArraysMap: {
+"Object": thisObjectList
+},
+  _behaviorNamesMap: {
+"Behavior": Behavior
+},
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName];
+  },
+  createObject: function(objectName) {
+    var objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      return parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+    }
+    return null;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return that._onceTriggers; }
+};
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.GDObjectObjects2.length = 0;
+
+gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.DirectionNormYContext.eventsList0(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.AngleContext = {};
@@ -1562,101 +1947,6 @@ gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.GDObj
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor4PartiesContext.eventsList0(runtimeScene, eventsFunctionContext);
 return "" + eventsFunctionContext.returnValue;
 }
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext = {};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1= [];
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects2= [];
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.conditionTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.condition0IsTrue_0 = {val:false};
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.condition1IsTrue_0 = {val:false};
-
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
-
-{
-
-
-{
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = false; }}}
-
-}
-
-
-{
-
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1);
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDone() ) {
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.condition0IsTrue_0.val = true;
-        gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1[k] = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1[i];
-        ++k;
-    }
-}
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.condition0IsTrue_0.val) {
-/* Reuse gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1 */
-{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}{for(var i = 0, len = gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDone(false);
-}
-}}
-
-}
-
-
-};
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDone = function(parentEventsFunctionContext) {
-
-var that = this;
-var runtimeScene = this._runtimeScene;
-var thisObjectList = [this.owner];
-var Object = Hashtable.newFrom({Object: thisObjectList});
-var Behavior = this.name;
-var eventsFunctionContext = {
-  _objectsMap: {
-"Object": Object
-},
-  _objectArraysMap: {
-"Object": thisObjectList
-},
-  _behaviorNamesMap: {
-"Behavior": Behavior
-},
-  getObjects: function(objectName) {
-    return eventsFunctionContext._objectArraysMap[objectName] || [];
-  },
-  getObjectsLists: function(objectName) {
-    return eventsFunctionContext._objectsMap[objectName] || null;
-  },
-  getBehaviorName: function(behaviorName) {
-    return eventsFunctionContext._behaviorNamesMap[behaviorName];
-  },
-  createObject: function(objectName) {
-    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    if (objectsList) {
-      return parentEventsFunctionContext ?
-        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
-        runtimeScene.createObject(objectsList.firstKey());
-    }
-    return null;
-  },
-  getLayer: function(layerName) {
-    return runtimeScene.getLayer(layerName);
-  },
-  getArgument: function(argName) {
-    return "";
-  },
-  getOnceTriggers: function() { return that._onceTriggers; }
-};
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.GDObjectObjects2.length = 0;
-
-gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.IsDoneContext.eventsList0(runtimeScene, eventsFunctionContext);
-return !!eventsFunctionContext.returnValue;
-}
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext = {};
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype.GetDirectionsFor8PartiesContext.GDObjectObjects1_1final = [];
 
@@ -2058,7 +2348,7 @@ return "" + eventsFunctionContext.returnValue;
 // Methods:
 
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype._getTime = function() {
-    return this._behaviorData.Time !== undefined ? this._behaviorData.Time : Number("0.15") || 0;
+    return this._behaviorData.Time !== undefined ? this._behaviorData.Time : Number("0.200") || 0;
 };
 gdjs.evtsExt__Swipe__Swipe.Swipe.prototype._setTime = function(newValue) {
     this._behaviorData.Time = newValue;

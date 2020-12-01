@@ -23,10 +23,18 @@ gdjs.SampleCode.GDDirectionYObjects1= [];
 gdjs.SampleCode.GDDirectionYObjects2= [];
 gdjs.SampleCode.GDDirectionYObjects3= [];
 gdjs.SampleCode.GDDirectionYObjects4= [];
+gdjs.SampleCode.GDDirectionNormYObjects1= [];
+gdjs.SampleCode.GDDirectionNormYObjects2= [];
+gdjs.SampleCode.GDDirectionNormYObjects3= [];
+gdjs.SampleCode.GDDirectionNormYObjects4= [];
 gdjs.SampleCode.GDDirectionXObjects1= [];
 gdjs.SampleCode.GDDirectionXObjects2= [];
 gdjs.SampleCode.GDDirectionXObjects3= [];
 gdjs.SampleCode.GDDirectionXObjects4= [];
+gdjs.SampleCode.GDDirectionNormXObjects1= [];
+gdjs.SampleCode.GDDirectionNormXObjects2= [];
+gdjs.SampleCode.GDDirectionNormXObjects3= [];
+gdjs.SampleCode.GDDirectionNormXObjects4= [];
 gdjs.SampleCode.GDDirectionFor8Objects1= [];
 gdjs.SampleCode.GDDirectionFor8Objects2= [];
 gdjs.SampleCode.GDDirectionFor8Objects3= [];
@@ -78,6 +86,8 @@ gdjs.copyArray(runtimeScene.getObjects("Angle"), gdjs.SampleCode.GDAngleObjects3
 gdjs.copyArray(runtimeScene.getObjects("DebugCheck"), gdjs.SampleCode.GDDebugCheckObjects3);
 gdjs.copyArray(runtimeScene.getObjects("DirectionFor4"), gdjs.SampleCode.GDDirectionFor4Objects3);
 gdjs.copyArray(runtimeScene.getObjects("DirectionFor8"), gdjs.SampleCode.GDDirectionFor8Objects3);
+gdjs.copyArray(runtimeScene.getObjects("DirectionNormX"), gdjs.SampleCode.GDDirectionNormXObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DirectionNormY"), gdjs.SampleCode.GDDirectionNormYObjects3);
 gdjs.copyArray(runtimeScene.getObjects("DirectionX"), gdjs.SampleCode.GDDirectionXObjects3);
 gdjs.copyArray(runtimeScene.getObjects("DirectionY"), gdjs.SampleCode.GDDirectionYObjects3);
 gdjs.copyArray(runtimeScene.getObjects("Length"), gdjs.SampleCode.GDLengthObjects3);
@@ -104,21 +114,21 @@ for(var i = 0, k = 0, l = gdjs.SampleCode.GDAngleObjects3.length;i<l;++i) {
         ++k;
     }
 }
-gdjs.SampleCode.GDAngleObjects3.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionYObjects3.length;i<l;++i) {
-    if ( gdjs.SampleCode.GDDirectionYObjects3[i].isVisible() ) {
+gdjs.SampleCode.GDAngleObjects3.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionNormYObjects3.length;i<l;++i) {
+    if ( gdjs.SampleCode.GDDirectionNormYObjects3[i].isVisible() ) {
         gdjs.SampleCode.condition1IsTrue_1.val = true;
-        gdjs.SampleCode.GDDirectionYObjects3[k] = gdjs.SampleCode.GDDirectionYObjects3[i];
+        gdjs.SampleCode.GDDirectionNormYObjects3[k] = gdjs.SampleCode.GDDirectionNormYObjects3[i];
         ++k;
     }
 }
-gdjs.SampleCode.GDDirectionYObjects3.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionXObjects3.length;i<l;++i) {
-    if ( gdjs.SampleCode.GDDirectionXObjects3[i].isVisible() ) {
+gdjs.SampleCode.GDDirectionNormYObjects3.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionNormXObjects3.length;i<l;++i) {
+    if ( gdjs.SampleCode.GDDirectionNormXObjects3[i].isVisible() ) {
         gdjs.SampleCode.condition1IsTrue_1.val = true;
-        gdjs.SampleCode.GDDirectionXObjects3[k] = gdjs.SampleCode.GDDirectionXObjects3[i];
+        gdjs.SampleCode.GDDirectionNormXObjects3[k] = gdjs.SampleCode.GDDirectionNormXObjects3[i];
         ++k;
     }
 }
-gdjs.SampleCode.GDDirectionXObjects3.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionFor8Objects3.length;i<l;++i) {
+gdjs.SampleCode.GDDirectionNormXObjects3.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionFor8Objects3.length;i<l;++i) {
     if ( gdjs.SampleCode.GDDirectionFor8Objects3[i].isVisible() ) {
         gdjs.SampleCode.condition1IsTrue_1.val = true;
         gdjs.SampleCode.GDDirectionFor8Objects3[k] = gdjs.SampleCode.GDDirectionFor8Objects3[i];
@@ -139,7 +149,21 @@ gdjs.SampleCode.GDDirectionFor4Objects3.length = k;for(var i = 0, k = 0, l = gdj
         ++k;
     }
 }
-gdjs.SampleCode.GDLengthObjects3.length = k;}}
+gdjs.SampleCode.GDLengthObjects3.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionXObjects3.length;i<l;++i) {
+    if ( gdjs.SampleCode.GDDirectionXObjects3[i].isVisible() ) {
+        gdjs.SampleCode.condition1IsTrue_1.val = true;
+        gdjs.SampleCode.GDDirectionXObjects3[k] = gdjs.SampleCode.GDDirectionXObjects3[i];
+        ++k;
+    }
+}
+gdjs.SampleCode.GDDirectionXObjects3.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionYObjects3.length;i<l;++i) {
+    if ( gdjs.SampleCode.GDDirectionYObjects3[i].isVisible() ) {
+        gdjs.SampleCode.condition1IsTrue_1.val = true;
+        gdjs.SampleCode.GDDirectionYObjects3[k] = gdjs.SampleCode.GDDirectionYObjects3[i];
+        ++k;
+    }
+}
+gdjs.SampleCode.GDDirectionYObjects3.length = k;}}
 gdjs.SampleCode.conditionTrue_1.val = true && gdjs.SampleCode.condition0IsTrue_1.val && gdjs.SampleCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SampleCode.condition0IsTrue_0.val) {
@@ -158,6 +182,8 @@ gdjs.copyArray(runtimeScene.getObjects("Angle"), gdjs.SampleCode.GDAngleObjects2
 gdjs.copyArray(runtimeScene.getObjects("DebugCheck"), gdjs.SampleCode.GDDebugCheckObjects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionFor4"), gdjs.SampleCode.GDDirectionFor4Objects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionFor8"), gdjs.SampleCode.GDDirectionFor8Objects2);
+gdjs.copyArray(runtimeScene.getObjects("DirectionNormX"), gdjs.SampleCode.GDDirectionNormXObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DirectionNormY"), gdjs.SampleCode.GDDirectionNormYObjects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionX"), gdjs.SampleCode.GDDirectionXObjects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionY"), gdjs.SampleCode.GDDirectionYObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Length"), gdjs.SampleCode.GDLengthObjects2);
@@ -184,21 +210,21 @@ for(var i = 0, k = 0, l = gdjs.SampleCode.GDAngleObjects2.length;i<l;++i) {
         ++k;
     }
 }
-gdjs.SampleCode.GDAngleObjects2.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionYObjects2.length;i<l;++i) {
-    if ( !(gdjs.SampleCode.GDDirectionYObjects2[i].isVisible()) ) {
+gdjs.SampleCode.GDAngleObjects2.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionNormYObjects2.length;i<l;++i) {
+    if ( !(gdjs.SampleCode.GDDirectionNormYObjects2[i].isVisible()) ) {
         gdjs.SampleCode.condition1IsTrue_1.val = true;
-        gdjs.SampleCode.GDDirectionYObjects2[k] = gdjs.SampleCode.GDDirectionYObjects2[i];
+        gdjs.SampleCode.GDDirectionNormYObjects2[k] = gdjs.SampleCode.GDDirectionNormYObjects2[i];
         ++k;
     }
 }
-gdjs.SampleCode.GDDirectionYObjects2.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionXObjects2.length;i<l;++i) {
-    if ( !(gdjs.SampleCode.GDDirectionXObjects2[i].isVisible()) ) {
+gdjs.SampleCode.GDDirectionNormYObjects2.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionNormXObjects2.length;i<l;++i) {
+    if ( !(gdjs.SampleCode.GDDirectionNormXObjects2[i].isVisible()) ) {
         gdjs.SampleCode.condition1IsTrue_1.val = true;
-        gdjs.SampleCode.GDDirectionXObjects2[k] = gdjs.SampleCode.GDDirectionXObjects2[i];
+        gdjs.SampleCode.GDDirectionNormXObjects2[k] = gdjs.SampleCode.GDDirectionNormXObjects2[i];
         ++k;
     }
 }
-gdjs.SampleCode.GDDirectionXObjects2.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionFor8Objects2.length;i<l;++i) {
+gdjs.SampleCode.GDDirectionNormXObjects2.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionFor8Objects2.length;i<l;++i) {
     if ( !(gdjs.SampleCode.GDDirectionFor8Objects2[i].isVisible()) ) {
         gdjs.SampleCode.condition1IsTrue_1.val = true;
         gdjs.SampleCode.GDDirectionFor8Objects2[k] = gdjs.SampleCode.GDDirectionFor8Objects2[i];
@@ -219,7 +245,21 @@ gdjs.SampleCode.GDDirectionFor4Objects2.length = k;for(var i = 0, k = 0, l = gdj
         ++k;
     }
 }
-gdjs.SampleCode.GDLengthObjects2.length = k;}}
+gdjs.SampleCode.GDLengthObjects2.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionXObjects2.length;i<l;++i) {
+    if ( !(gdjs.SampleCode.GDDirectionXObjects2[i].isVisible()) ) {
+        gdjs.SampleCode.condition1IsTrue_1.val = true;
+        gdjs.SampleCode.GDDirectionXObjects2[k] = gdjs.SampleCode.GDDirectionXObjects2[i];
+        ++k;
+    }
+}
+gdjs.SampleCode.GDDirectionXObjects2.length = k;for(var i = 0, k = 0, l = gdjs.SampleCode.GDDirectionYObjects2.length;i<l;++i) {
+    if ( !(gdjs.SampleCode.GDDirectionYObjects2[i].isVisible()) ) {
+        gdjs.SampleCode.condition1IsTrue_1.val = true;
+        gdjs.SampleCode.GDDirectionYObjects2[k] = gdjs.SampleCode.GDDirectionYObjects2[i];
+        ++k;
+    }
+}
+gdjs.SampleCode.GDDirectionYObjects2.length = k;}}
 gdjs.SampleCode.conditionTrue_1.val = true && gdjs.SampleCode.condition0IsTrue_1.val && gdjs.SampleCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SampleCode.condition0IsTrue_0.val) {
@@ -244,7 +284,7 @@ gdjs.SampleCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.SampleCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SampleCode.conditionTrue_1 = gdjs.SampleCode.condition1IsTrue_0;
-gdjs.SampleCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8127708);
+gdjs.SampleCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8174188);
 }
 }}
 if (gdjs.SampleCode.condition1IsTrue_0.val) {
@@ -307,17 +347,19 @@ gdjs.SampleCode.GDDebugCheckObjects2.length = k;}if (gdjs.SampleCode.condition0I
 gdjs.copyArray(runtimeScene.getObjects("Angle"), gdjs.SampleCode.GDAngleObjects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionFor4"), gdjs.SampleCode.GDDirectionFor4Objects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionFor8"), gdjs.SampleCode.GDDirectionFor8Objects2);
+gdjs.copyArray(runtimeScene.getObjects("DirectionNormX"), gdjs.SampleCode.GDDirectionNormXObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DirectionNormY"), gdjs.SampleCode.GDDirectionNormYObjects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionX"), gdjs.SampleCode.GDDirectionXObjects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionY"), gdjs.SampleCode.GDDirectionYObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Length"), gdjs.SampleCode.GDLengthObjects2);
 {for(var i = 0, len = gdjs.SampleCode.GDAngleObjects2.length ;i < len;++i) {
     gdjs.SampleCode.GDAngleObjects2[i].hide();
 }
-for(var i = 0, len = gdjs.SampleCode.GDDirectionYObjects2.length ;i < len;++i) {
-    gdjs.SampleCode.GDDirectionYObjects2[i].hide();
+for(var i = 0, len = gdjs.SampleCode.GDDirectionNormYObjects2.length ;i < len;++i) {
+    gdjs.SampleCode.GDDirectionNormYObjects2[i].hide();
 }
-for(var i = 0, len = gdjs.SampleCode.GDDirectionXObjects2.length ;i < len;++i) {
-    gdjs.SampleCode.GDDirectionXObjects2[i].hide();
+for(var i = 0, len = gdjs.SampleCode.GDDirectionNormXObjects2.length ;i < len;++i) {
+    gdjs.SampleCode.GDDirectionNormXObjects2[i].hide();
 }
 for(var i = 0, len = gdjs.SampleCode.GDDirectionFor8Objects2.length ;i < len;++i) {
     gdjs.SampleCode.GDDirectionFor8Objects2[i].hide();
@@ -327,6 +369,12 @@ for(var i = 0, len = gdjs.SampleCode.GDDirectionFor4Objects2.length ;i < len;++i
 }
 for(var i = 0, len = gdjs.SampleCode.GDLengthObjects2.length ;i < len;++i) {
     gdjs.SampleCode.GDLengthObjects2[i].hide();
+}
+for(var i = 0, len = gdjs.SampleCode.GDDirectionXObjects2.length ;i < len;++i) {
+    gdjs.SampleCode.GDDirectionXObjects2[i].hide();
+}
+for(var i = 0, len = gdjs.SampleCode.GDDirectionYObjects2.length ;i < len;++i) {
+    gdjs.SampleCode.GDDirectionYObjects2[i].hide();
 }
 }}
 
@@ -350,17 +398,19 @@ gdjs.SampleCode.GDDebugCheckObjects1.length = k;}if (gdjs.SampleCode.condition0I
 gdjs.copyArray(runtimeScene.getObjects("Angle"), gdjs.SampleCode.GDAngleObjects1);
 gdjs.copyArray(runtimeScene.getObjects("DirectionFor4"), gdjs.SampleCode.GDDirectionFor4Objects1);
 gdjs.copyArray(runtimeScene.getObjects("DirectionFor8"), gdjs.SampleCode.GDDirectionFor8Objects1);
+gdjs.copyArray(runtimeScene.getObjects("DirectionNormX"), gdjs.SampleCode.GDDirectionNormXObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DirectionNormY"), gdjs.SampleCode.GDDirectionNormYObjects1);
 gdjs.copyArray(runtimeScene.getObjects("DirectionX"), gdjs.SampleCode.GDDirectionXObjects1);
 gdjs.copyArray(runtimeScene.getObjects("DirectionY"), gdjs.SampleCode.GDDirectionYObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Length"), gdjs.SampleCode.GDLengthObjects1);
 {for(var i = 0, len = gdjs.SampleCode.GDAngleObjects1.length ;i < len;++i) {
     gdjs.SampleCode.GDAngleObjects1[i].hide(false);
 }
-for(var i = 0, len = gdjs.SampleCode.GDDirectionYObjects1.length ;i < len;++i) {
-    gdjs.SampleCode.GDDirectionYObjects1[i].hide(false);
+for(var i = 0, len = gdjs.SampleCode.GDDirectionNormYObjects1.length ;i < len;++i) {
+    gdjs.SampleCode.GDDirectionNormYObjects1[i].hide(false);
 }
-for(var i = 0, len = gdjs.SampleCode.GDDirectionXObjects1.length ;i < len;++i) {
-    gdjs.SampleCode.GDDirectionXObjects1[i].hide(false);
+for(var i = 0, len = gdjs.SampleCode.GDDirectionNormXObjects1.length ;i < len;++i) {
+    gdjs.SampleCode.GDDirectionNormXObjects1[i].hide(false);
 }
 for(var i = 0, len = gdjs.SampleCode.GDDirectionFor8Objects1.length ;i < len;++i) {
     gdjs.SampleCode.GDDirectionFor8Objects1[i].hide(false);
@@ -370,6 +420,12 @@ for(var i = 0, len = gdjs.SampleCode.GDDirectionFor4Objects1.length ;i < len;++i
 }
 for(var i = 0, len = gdjs.SampleCode.GDLengthObjects1.length ;i < len;++i) {
     gdjs.SampleCode.GDLengthObjects1[i].hide(false);
+}
+for(var i = 0, len = gdjs.SampleCode.GDDirectionXObjects1.length ;i < len;++i) {
+    gdjs.SampleCode.GDDirectionXObjects1[i].hide(false);
+}
+for(var i = 0, len = gdjs.SampleCode.GDDirectionYObjects1.length ;i < len;++i) {
+    gdjs.SampleCode.GDDirectionYObjects1[i].hide(false);
 }
 }}
 
@@ -397,6 +453,8 @@ gdjs.copyArray(runtimeScene.getObjects("Circle"), gdjs.SampleCode.GDCircleObject
 /* Reuse gdjs.SampleCode.GDControlSwipeObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("DirectionFor4"), gdjs.SampleCode.GDDirectionFor4Objects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionFor8"), gdjs.SampleCode.GDDirectionFor8Objects2);
+gdjs.copyArray(runtimeScene.getObjects("DirectionNormX"), gdjs.SampleCode.GDDirectionNormXObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DirectionNormY"), gdjs.SampleCode.GDDirectionNormYObjects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionX"), gdjs.SampleCode.GDDirectionXObjects2);
 gdjs.copyArray(runtimeScene.getObjects("DirectionY"), gdjs.SampleCode.GDDirectionYObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Length"), gdjs.SampleCode.GDLengthObjects2);
@@ -404,6 +462,12 @@ gdjs.copyArray(runtimeScene.getObjects("Numeral1"), gdjs.SampleCode.GDNumeral1Ob
 gdjs.copyArray(runtimeScene.getObjects("Numeral2"), gdjs.SampleCode.GDNumeral2Objects2);
 {for(var i = 0, len = gdjs.SampleCode.GDAngleObjects2.length ;i < len;++i) {
     gdjs.SampleCode.GDAngleObjects2[i].setString("Angle: " + gdjs.evtTools.common.toString((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").Angle((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)))));
+}
+}{for(var i = 0, len = gdjs.SampleCode.GDDirectionNormXObjects2.length ;i < len;++i) {
+    gdjs.SampleCode.GDDirectionNormXObjects2[i].setString("Direction X (norm): " + gdjs.evtTools.common.toString((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").DirectionNormX((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)))));
+}
+}{for(var i = 0, len = gdjs.SampleCode.GDDirectionNormYObjects2.length ;i < len;++i) {
+    gdjs.SampleCode.GDDirectionNormYObjects2[i].setString("Direction Y (norm): " + gdjs.evtTools.common.toString((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").DirectionNormY((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)))));
 }
 }{for(var i = 0, len = gdjs.SampleCode.GDDirectionXObjects2.length ;i < len;++i) {
     gdjs.SampleCode.GDDirectionXObjects2[i].setString("Direction X: " + gdjs.evtTools.common.toString((( gdjs.SampleCode.GDControlSwipeObjects2.length === 0 ) ? 0 :gdjs.SampleCode.GDControlSwipeObjects2[0].getBehavior("Swipe").DirectionX((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)))));
@@ -542,10 +606,18 @@ gdjs.SampleCode.GDDirectionYObjects1.length = 0;
 gdjs.SampleCode.GDDirectionYObjects2.length = 0;
 gdjs.SampleCode.GDDirectionYObjects3.length = 0;
 gdjs.SampleCode.GDDirectionYObjects4.length = 0;
+gdjs.SampleCode.GDDirectionNormYObjects1.length = 0;
+gdjs.SampleCode.GDDirectionNormYObjects2.length = 0;
+gdjs.SampleCode.GDDirectionNormYObjects3.length = 0;
+gdjs.SampleCode.GDDirectionNormYObjects4.length = 0;
 gdjs.SampleCode.GDDirectionXObjects1.length = 0;
 gdjs.SampleCode.GDDirectionXObjects2.length = 0;
 gdjs.SampleCode.GDDirectionXObjects3.length = 0;
 gdjs.SampleCode.GDDirectionXObjects4.length = 0;
+gdjs.SampleCode.GDDirectionNormXObjects1.length = 0;
+gdjs.SampleCode.GDDirectionNormXObjects2.length = 0;
+gdjs.SampleCode.GDDirectionNormXObjects3.length = 0;
+gdjs.SampleCode.GDDirectionNormXObjects4.length = 0;
 gdjs.SampleCode.GDDirectionFor8Objects1.length = 0;
 gdjs.SampleCode.GDDirectionFor8Objects2.length = 0;
 gdjs.SampleCode.GDDirectionFor8Objects3.length = 0;
